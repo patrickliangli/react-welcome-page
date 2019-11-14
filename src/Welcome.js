@@ -60,7 +60,7 @@ class Welcome extends React.Component {
                     key={this.state.index}
                     >
                         <InnerContainer>
-                            <Logo duration={this.props.loopDuration ? this.props.loopDuration : 1000} className={`animated ${imageAnimation}`} image={image} />
+                            <Logo duration={this.props.loopDuration ? this.props.loopDuration : 1000} className={`animated infinite ${imageAnimation}`} image={image} />
                             <LogoText
                                 textColor={textColor}
                                 duration={this.props.loopDuration ? this.props.loopDuration : 1000} 

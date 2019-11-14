@@ -28,10 +28,12 @@
     display: none;
   }
   
+  /*
   img {
     height: 100px;
     width: 100px;
   }
+  */
   
   .inner-container {
     text-align: center;
